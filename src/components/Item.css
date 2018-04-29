@@ -1,0 +1,38 @@
+.item-title {
+  color: #250e44;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  margin: 20px;
+}
+
+.item-subtitle {
+  color: #250e44;
+  padding-right: 30px;
+  letter-spacing: 3px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.color-square {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+
+.photo {
+  margin-top: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  left: 50%;
+  height: 250px;
+  width: 250px;
+}
